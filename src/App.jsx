@@ -5,7 +5,7 @@ import './App.css'
 import CardImage from './component/CardImage'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
@@ -19,9 +19,6 @@ function App() {
       </div>
       <h1 className='text-red-600 font-semibold'>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
